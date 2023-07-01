@@ -154,7 +154,7 @@ const App = () => {
 
               <button
                 type="submit"
-                className="text-sm relative focus:outline-none md:w-full hover:opacity-80 transition duration-700"
+                className="text-sm relative focus:outline-none w-full hover:opacity-80 transition duration-700"
               >
                 {/* background goes here */}
                 <div className="absolute inset-x-0 h-full -bottom-1.5 bg-[#2da471] rounded-lg"></div>
