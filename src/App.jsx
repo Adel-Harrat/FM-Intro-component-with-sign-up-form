@@ -15,7 +15,7 @@ const App = () => {
     <div className="font-poppins bg-my-primary-red bg-mobile md:bg-desktop min-h-screen bg-no-repeat bg-cover pb-20 md:pb-0 md:grid md:place-items-center">
       <div className="md:max-w-6xl md:grid md:grid-cols-2">
         <section className="px-8 md:flex md:flex-col md:items-start md:justify-center">
-          <h1 className="font-bold text-white text-3xl text-center mt-24 mb-8 inline-block md:leading-[3rem] md:text-5xl">
+          <h1 className="font-bold text-white text-3xl text-center mt-24 md:mt-0 mb-8 inline-block md:leading-[3rem] md:text-5xl">
             Learn to code by <br className="hidden md:block" />
             watching others
           </h1>
@@ -33,9 +33,10 @@ const App = () => {
             <div className="absolute inset-x-0 h-full -bottom-2 bg-zinc-900/20 rounded-lg"></div>
 
             {/* Text goes here */}
-            <div className="relative bg-my-accent-blue text-white text-center rounded-lg leading-7 py-4 font-[300]">
-              <span className="font-bold">Try it free 7 days</span> then{" "}
-              <br className="md:hidden" /> $20/mo. thereafter
+            <div className="relative bg-my-accent-blue  text-center rounded-lg leading-7 py-4 font-[300]">
+              <span className="font-bold text-white">Try it free 7 days</span>{" "}
+              then <br className="md:hidden text-my-neutral-grayish-blue" />{" "}
+              $20/mo. thereafter
             </div>
           </div>
 
