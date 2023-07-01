@@ -22,8 +22,8 @@ export default {
         poppins: ["'Poppins'", "sans-serif"],
       },
       backgroundImage: {
-        desktop: "url('./public/images/bg-intro-desktop.png')",
-        mobile: "url('./public/images/bg-intro-mobile.png')",
+        desktop: "url('/images/bg-intro-desktop.png')",
+        mobile: "url('/images/bg-intro-mobile.png')",
       },
     },
   },
