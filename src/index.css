@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-input {
+  @apply border-solid border-[1px] border-my-neutral-grayish-blue w-full rounded-md p-4 font-semibold placeholder:capitalize focus:outline-none text-my-neutral-dark-blue text-sm md:px-8 focus:border-my-accent-blue transition duration-500;
+}
+
+.my-error-message {
+  @apply text-red-600 italic text-xs font-light text-right mt-1;
+}
+
+.my-border-error {
+  @apply border-my-primary-red border-[2px] placeholder:text-transparent;
+}
