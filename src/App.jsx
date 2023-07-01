@@ -33,10 +33,9 @@ const App = () => {
             <div className="absolute inset-x-0 h-full -bottom-2 bg-zinc-900/20 rounded-lg"></div>
 
             {/* Text goes here */}
-            <div className="relative bg-my-accent-blue  text-center rounded-lg leading-7 py-4 font-[300]">
+            <div className="relative bg-my-accent-blue text-my-neutral-grayish-blue text-center rounded-lg leading-7 py-4 font-[300]">
               <span className="font-bold text-white">Try it free 7 days</span>{" "}
-              then <br className="md:hidden text-my-neutral-grayish-blue" />{" "}
-              $20/mo. thereafter
+              then <br className="md:hidden" /> $20/mo. thereafter
             </div>
           </div>
 
